@@ -33,14 +33,13 @@ h2 {
 }
 
 .carrousel {
-  background-color: white;
   /* Hide scrollbar for IE, Edge and Firefox */
   -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
-  overflow: scroll;
-  overflow-y: visible;
+  scrollbar-width: none;
   height: 100%;
   display: flex;
+  overflow: hidden;
+  overflow-x: scroll;
 }
 
 .carrousel::-webkit-scrollbar {

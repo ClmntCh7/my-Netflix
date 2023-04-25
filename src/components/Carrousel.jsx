@@ -1,8 +1,9 @@
-const Carrousel = ({ className, image }) => {
-//   console.log(image);
+const Carrousel = ({ images }) => {
   return (
-    <div className={className}>
-        {image}
+    <div className="carrousel">
+      {images.map((imgUrl, index) => {
+        return <img src={imgUrl} alt="" key={index} />;
+      })}
     </div>
   );
 };

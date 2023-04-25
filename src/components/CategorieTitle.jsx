@@ -2,7 +2,7 @@ const CategorieTitle = ({className, category}) => {
 
 
   return (
-    <div className={className}>
+    <div className="classTitle">
       <h2>{category}</h2>
     </div>
   );

@@ -10,7 +10,6 @@ const App = () => {
       {data.map((cat, index) => {
         return (
           <Section
-          className="section"
           key={index}
           category={cat.category}
           images={cat.images} />
